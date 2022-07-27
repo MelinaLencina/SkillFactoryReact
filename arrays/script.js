@@ -21,7 +21,7 @@ const myInfo = {
 console.log(myInfo);
 
 const ourPeers = myPeers.sort();
-console.log();
+console.log(ourPeers);
 ourPeers.push("Tomás");
 console.log(ourPeers);
 
