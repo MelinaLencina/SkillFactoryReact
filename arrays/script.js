@@ -21,7 +21,7 @@ const myInfo = {
 console.log(myInfo);
 
 const ourPeers = myPeers.sort();
-console.log("Our sorted array " + ourPeers);
+console.log("Our sorted array looks like: " + ourPeers);
 ourPeers.push("Tomás");
 console.log("Adding one person to our sorted array: " + ourPeers);
 
