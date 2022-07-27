@@ -4,11 +4,11 @@ const isInARelationship = true;
 const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const myPeers = ["Franco", "Fernando", "Ezequiel", "Debora", "Maximiliano"];
 
-console.log(myName);
-console.log(myAge);
-console.log(isInARelationship);
-console.log(myNumbers);
-console.log(myPeers);
+console.log("My name is "+ myName);
+console.log(`I am ${myAge} years old`);
+console.log(`Am I in a relationship? ${isInARelationship}`);
+console.log("Counting to ten: " + myNumbers);
+console.log("I can name Avalith skillers: " + myPeers);
 
 const myInfo = {
     myName : "Melina",
@@ -21,9 +21,9 @@ const myInfo = {
 console.log(myInfo);
 
 const ourPeers = myPeers.sort();
-console.log(ourPeers);
+console.log("Our sorted array " + ourPeers);
 ourPeers.push("Tomás");
-console.log(ourPeers);
+console.log("Adding one person to our sorted array: " + ourPeers);
 
 const num1 = parseInt(prompt("Ingrese su primer número: "));
 const num2 = parseInt(prompt("Ingrese su segundo número: "));
