@@ -1,5 +1,3 @@
-// MÉTODOS ARRAYS JAVASCRIPT
-
 // .pop() - .shift() - .push() - .slice() - .unshift() - .reverse() - .join() - .concat() - .lenght - .sort()
 
 // .pop() -> elimina el último elemento de un array y lo devuelve. MODIFICA array de origen.
