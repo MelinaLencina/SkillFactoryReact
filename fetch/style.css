@@ -1,0 +1,47 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.users {
+    background-color: rgb(243, 236, 172); 
+    text-align: center;
+    width: 20%;
+    margin: 1.3rem;
+    padding: 2rem;
+    border-radius: 5%;
+    box-shadow: 2px 5px 9px gray;
+}
+
+.title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.true{
+    background-color: #7adb7a;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.users:hover .true{
+    background-color: #67b667;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.false{
+    background-color: #db7a7a;
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+}
+
+.users:hover .false{
+    background-color: #b66767;
+    box-shadow: 2px 2px 4px gray;
+}
