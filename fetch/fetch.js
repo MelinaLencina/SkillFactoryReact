@@ -17,7 +17,7 @@ function showData(data) {
             <p class="title">${data[i].title}</p>
             <p>ID: ${data[i].id}</p>
             <p>User ID: ${data[i].userId}</p>
-            <p class=${data[i].completed == true ? "true" : "false"}><b>Status:</b> ${data[i].completed}</p>
+            <p class=${data[i].completed === true ? "true" : "false"}><b>Status:</b> ${data[i].completed}</p>
        
         </div>
        
